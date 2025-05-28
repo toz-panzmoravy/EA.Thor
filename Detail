@@ -1,0 +1,16 @@
+Strategy Explanation:
+    Entry Conditions (Long Position):
+        When EMA(6) crosses above EMA(12)
+        This indicates a potential uptrend
+    Entry Conditions (Short Position):
+        When EMA(6) crosses below EMA(12)
+        This indicates a potential downtrend
+    Exit Conditions:
+        For Long positions: When EMA(6) crosses below EMA(12)
+        For Short positions: When EMA(6) crosses above EMA(12)
+
+Funkcionalita (CZ):
+Tento Expert Advisor (EA) pro MetaTrader 5 automaticky otevírá a zavírá obchodní pozice na základě překřížení klouzavých průměrů EMA(6) a EMA(12) a indikátoru Money Flow Index (MFI 14). Pozice BUY se otevírá, když EMA(6) překříží EMA(12) směrem nahoru a MFI je pod 30 a roste. Pozice SELL se otevírá, když EMA(6) překříží EMA(12) směrem dolů a MFI je nad 70 a klesá. Uzavření pozic probíhá na základě opačných signálů MFI.
+
+Functionality (EN):
+This Expert Advisor (EA) for MetaTrader 5 automatically opens and closes trading positions based on the crossover of EMA(6) and EMA(12) moving averages and the Money Flow Index (MFI 14) indicator. A BUY position is opened when EMA(6) crosses above EMA(12) and MFI is below 30 and rising. A SELL position is opened when EMA(6) crosses below EMA(12) and MFI is above 70 and falling. Positions are closed based on opposite MFI signals.
